@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>lesson 13 cd</title>
+        <style>
+            .container{
+                width: 400px;
+                border-style: solid;
+                border-radius: 2px;
+                border-color: rgb(240, 240, 240);
+                font-family: Arial;
+            }
+            .firstline{
+                color:grey;
+                font-size: 14px;
+                margin-left: 10px;
+                margin-top: 10px;
+            }
+            .profile-content{
+                display: flex;
+                flex-direction: row;
+            }
+            .row-1{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 5px;
+            }
+
+            .photo-column{
+                width:70px;
+                display: flex;
+                align-items: center;
+             
+            }
+            .profile-picture{
+                width: 50px;
+                height:50px;
+                border-radius: 25px;
+                object-fit: cover;
+                margin-left: 10px;
+                
+
+            }
+            .profile-info{
+                width: 300px;
+            }
+         .name{
+            font-weight: bold;
+            font-size: 16px;
+         }
+         .time{
+            color: rgb(121, 121, 121);
+            font-size: 14px;
+         }
+         .row-2{
+            font-weight: bold;
+            font-size:14px;
+            margin-bottom: 0px;
+            margin-top: 6px;
+         }
+
+         .row-3{
+            font-size:14px;
+            margin-top: 6px;
+            color:rgb(120, 120, 120);
+         }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <p class="firstline">ALL INBOXES</p>
+            <div class="profile-content">
+                <div class="photo-column">
+                    <img  class="profile-picture" src="vv1.png">
+                </div>
+                
+               
+                <div class="profile-info">
+                    <div class="row-1">
+                        <div class="name">Chewy Promotions</div>
+                        <div class="time">4:58 PM</div>
+                    </div>
+                    <p class="row-2">Biggest sales of the year!</p>
+                    <p class="row-3">Hey there! We are writing to tell you about our...</p>
+                </div>
+            </div>
+
+            <div class="profile-content">
+                <div class="photo-column">
+                    <img  class="profile-picture" src="uu.jpg">
+                </div>
+                
+               
+                <div class="profile-info">
+                    <div class="row-1">
+                        <div class="name">Best Buy</div>
+                        <div class="time">12:32 PM</div>
+                    </div>
+                    <p class="row-2">Your best buy eReceipt</p>
+                    <p class="row-3">Thank you for shopping at Best Buy, here is...</p>
+                </div>
+            </div>
+
+            <div class="profile-content">
+                <div class="photo-column">
+                    <img  class="profile-picture" src="bb.png">
+                </div>
+                
+               
+                <div class="profile-info">
+                    <div class="row-1">
+                        <div class="name">Netflix</div>
+                        <div class="time">9:00 AM</div>
+                    </div>
+                    <p class="row-2">Here's what's coming soon to Netflix</p>
+                    <p class="row-3">Brand new movies and shows, old favourits...</p>
+                </div>
+            </div>
+
+
+        </div>
+    </body>
+</html>
